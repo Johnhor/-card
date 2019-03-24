@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+ <html>
+    <head>
+        <title>SCSS</title>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" type="text/css" href="style.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.0.0/css/swiper.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.0.0/css/swiper.min.css">
+    </head>
+ <body>
+ <div class='container'>
+     <div class='wrapper'>
+         <div class='card'>
+           <div class='card-content'>
+             <div class='card__price'>80.00<span class='card__valute'>$</span></div>
+             <h1 class='card__title'>Платье</h1>
+             <img id='image-container' src='images/dress1.png' alt='' class='card__img'>
+             <div class='card__nav'>
+                <img onclick="changeImage(this)" src='images/dress2.png' alt=''>
+                <img onclick="changeImage(this)" src='images/dress3.png' alt=''>
+                <img onclick="changeImage(this)" src='images/dress4.png' alt=''>
+                <img onclick="changeImage(this)" src='images/dress1.png' alt=''>
+             </div>
+            </div>
+            <div class='card-info'> 
+              <div class='card-info__title'>Новая колекция</div>
+              <button class='card__btn'>Купить</button>
+            </div> 
+         </div>
+     </div>
+ </div>
+
+  
+
+  	<script src="main.js"></script>
+   <!--  <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.0.0/js/swiper.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.0.0/js/swiper.min.js"></script>
+    <script>
+      var mySwiper = new Swiper ('.swiper-container', {
+    // Optional parameters
+    direction: 'horizontal',
+    loop: true,
+    slidesPerView: 8,
+
+    // If we need pagination
+    pagination: {
+      el: '.swiper-pagination',
+    },
+
+    // Navigation arrows
+    navigation: {
+      nextEl: '.swiper-button-next',
+      prevEl: '.swiper-button-prev',
+    },
+
+    // And if we need scrollbar
+    scrollbar: {
+      el: '.swiper-scrollbar',
+    },
+  })
+    </script> -->
+  </body>
+  </html>
